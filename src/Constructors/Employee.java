@@ -17,9 +17,7 @@ class Manager extends Employee {
     public Manager() {
         System.out.println("Manager Constructor called");
     }
-    public Manager(int teamSize) {
-        this.teamSize = teamSize;
-    }
+
 }
 
 class Company {
