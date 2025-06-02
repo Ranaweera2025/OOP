@@ -11,14 +11,18 @@ class Employee {
     }
 }
 
+
 class Manager extends Employee {
     private int teamSize;
 
     public Manager() {
         System.out.println("Manager Constructor called");
     }
-
+    public Manager(int teamSize){
+   this.teamSize=teamSize;}
 }
+
+
 
 class Company {
     public static void main(String[] args) {
