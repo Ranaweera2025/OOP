@@ -18,5 +18,11 @@ public class Book implements Printable{
         System.out.println("Title : "+title);
         System.out.println("Author : "+author);
         System.out.println("Pric : "+price);
+       // Printable.x=20;
+        System.out.println(Printable.x);
+
     }
+
+
+
 }

@@ -1,4 +1,4 @@
-// File: Rectangle.java
+
 package Abstract;
 
 public class Rectangle extends Shape {
