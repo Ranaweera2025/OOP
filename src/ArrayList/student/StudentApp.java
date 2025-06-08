@@ -10,6 +10,7 @@ public class StudentApp {
         Student s2=new Student();
         Student s3=new Student();
 
+
         list.add(s1);
         list.add(s2);
         list.add(s3);
